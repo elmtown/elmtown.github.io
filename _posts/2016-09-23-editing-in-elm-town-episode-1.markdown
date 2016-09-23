@@ -4,7 +4,7 @@ title: # Editing in Elm Town - Episode 1
 layout: post
 ---
 
-Links:
+## Links:
 
 - [Elm Conf Talks](https://www.youtube.com/channel/UCOpGiN9AkczVjlpGDaBwQrQ)
 - [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/8192)
@@ -16,17 +16,18 @@ Links:
 - [Chris Ford's talk](https://www.youtube.com/watch?v=EK4qctJOMaU)
 - [Kathy's book](http://seriouspony.com/badass-users-the-book/)
 
+## Feed
+Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
+
+## Acknowledgements
+
+- **Big thanks to Egghead.io for sharing their Elm logo with us.**
+- **And big thanks to Day One for making this podcast possible.**
+
+## Listen
+
 <p>
 <audio controls>
     <source src="http://cast.rocks/hosting/6039/Editing-in-Elm-Town-Ep-1.mp3" type="audio/mpeg">
 </audio>
 </p>
-
-<p>
-Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
-</p>
-
-
-**Big thanks to Egghead.io for sharing their Elm logo with us.**
-
-**And big thanks to Day One for making this podcast possible.**
