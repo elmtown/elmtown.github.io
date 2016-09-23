@@ -15,6 +15,8 @@ layout: post
 - [Atom Refactoring Plugin](https://atom.io/packages/elmjutsu)
 - [Chris Ford's talk](https://www.youtube.com/watch?v=EK4qctJOMaU)
 - [Kathy's book](http://seriouspony.com/badass-users-the-book/)
+- [elm-return](http://package.elm-lang.org/packages/Fresheyeball/elm-return/latest)
+- [Haskell Book](http://haskellbook.com/)
 
 ## Feed
 Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
