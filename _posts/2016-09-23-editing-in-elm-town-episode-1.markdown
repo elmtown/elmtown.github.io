@@ -24,7 +24,7 @@ Links:
 
 <p>
 Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
-<p>
+</p>
 
 
 **Big thanks to Egghead.io for sharing their Elm logo with us.**
