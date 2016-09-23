@@ -19,3 +19,5 @@ Links:
 <audio controls>
     <source src="http://cast.rocks/hosting/6039/Editing-in-Elm-Town-Ep-1.mp3" type="audio/mpeg">
 </audio>
+
+Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
