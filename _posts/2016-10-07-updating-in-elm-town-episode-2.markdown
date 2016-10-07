@@ -1,6 +1,6 @@
 ---
 published: true
-title: # Updating in Elm Town - Episode 2
+title: # Updating in Elm Town : Episode 2
 layout: post
 ---
 
