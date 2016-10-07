@@ -18,6 +18,8 @@ Guests: Murphy, Brian, Luke
 - (0:11:33) [Converge](http://converge.aster.is)
 - (0:11:37) [Brian's blog](http://www.brianthicks.com)
 - (0:12:22) [Luke's speaker page](https://gotocon.com/cph-2016/speaker/Luke+Westby)
+- (0:37:37) [jlongster's React Rally Talk](https://www.youtube.com/watch?v=gvVpSezT5_M&index=15&list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ)
+- (0:38:23) [elm-return](http://package.elm-lang.org/packages/Fresheyeball/elm-return/latest)
 - (0:42:16) [Luke's blog post](http://lukewestby.com/post/chainable-apis-with-forward-apply/)
 - (0:46:35) Brian's blog posts: [Value Pipes and Arrows](https://www.brianthicks.com/post/2016/08/08/values-pipes-and-arrows/) and [Welding Functional Pipes](https://www.brianthicks.com/post/2016/08/15/welding-functional-pipes/)
 - (0:54:32) [Picts](https://en.wikipedia.org/wiki/Picts)
