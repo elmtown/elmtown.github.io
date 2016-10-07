@@ -3,7 +3,6 @@ published: true
 title: # Updating in Elm Town (Episode 2)
 layout: post
 ---
-
 Discussion about the writing and simplification of update functions
 
 ## Sponsors
@@ -34,3 +33,10 @@ Guests: Murphy, Brian, Luke
 - (1:01:25) Gizra post - http://www.gizra.com/content/elm-inbox-simulation/
 
 
+## Listen
+
+<p>
+<audio controls>
+    <source src="http://cast.rocks/hosting/6039/Updating-In-Elm-Town-Ep-2.mp3" type="audio/mpeg">
+</audio>
+</p>
