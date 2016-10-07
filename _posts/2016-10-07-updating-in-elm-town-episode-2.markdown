@@ -1,6 +1,9 @@
 ---
-published: false
+published: true
+title: # Updating in Elm Town - Episode 2
+layout: post
 ---
+
 ## Updating in Elm Town - Episode 2
 
 Discussion about the writing and simplification of update functions
