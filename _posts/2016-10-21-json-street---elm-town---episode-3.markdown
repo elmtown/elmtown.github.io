@@ -1,6 +1,6 @@
 ---
 published: true
-title: # JSON Street, Elm Town (Episode 3)
+title: JSON Street, Elm Town (Episode 3)
 layout: post
 ---
 JSON decoders: What they are, how to build them, how to use them.
