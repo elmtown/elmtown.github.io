@@ -1,6 +1,6 @@
 ---
 published: true
-title: JS in Elm Town ~ Episode 4
+title: JS in Elm Town (Episode 4)
 layout: post
 ---
 Javascript interop
