@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-    <meta name="author" content="{{ site.author }}">
-    {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
 
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -33,6 +33,87 @@
         </div>
       </div>
     </header>
+
+
+    <style media="screen">
+    #sponsors h1 {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    #sponsors * {
+      box-sizing: border-box;
+    }
+
+
+    .sponsors {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 2em;
+    }
+
+
+    .sponsors img {
+      max-width: calc(100% - 50px);
+      margin: 0 auto;
+      display: block;
+    }
+
+    .sponsors .logo {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 180px;
+    }
+
+    .sponsor {
+      list-style: none;
+      padding: 2em;
+    }
+
+    .sponsor p {
+      font-size: 1.2em;
+    }
+    </style>
+    <section id="sponsors">
+
+      <h1>We ❤️ our sponsors, and we hope you will, too.</h1>
+      <ul class="sponsors">
+        <li class="sponsor">
+          <div class="logo">
+            <img src="https://cloud.githubusercontent.com/assets/22400633/20069227/fae09f7e-a4d8-11e6-9404-3f1fa8566f6e.png" alt="Humble Spark Logo" />
+          </div>
+          <p>A front-end focused development consultancy, that specializes in javascript-heavy websites, web performance, a/b testing & analytics.</p>
+        </li>
+
+
+        <li class="sponsor">
+          <div class="logo"/><img src="https://cloud.githubusercontent.com/assets/22400633/20069225/f884bb3e-a4d8-11e6-9ddf-605db5873c0e.png" alt="Asteris Logo" /></div>
+          <p>Software design and development services for next-generation infrastructure software for the modern datacenter.</p>
+        </li>
+
+        <li class="sponsor">
+          <div class="logo"><img src="https://cloud.githubusercontent.com/assets/22400633/20069232/00dc01de-a4d9-11e6-8a84-79e6c4f8631a.png" alt="Day One Logo" /></div>
+          <p>Day One is a journaling app for the iPhone, iPad, and Mac with an elegant interface makes journaling your life a simple pleasure.</p>
+        </li>
+
+
+        <li class="sponsor">
+          <div class="logo"><img src="https://cloud.githubusercontent.com/assets/22400633/20069240/0951aba2-a4d9-11e6-9c19-206b6c9f615d.png" alt="Humble Spark Logo" /></div>
+          <p>DailyDrip gives you daily content that’s tailored to what you want to learn. It only takes about 5 minutes a day and you retain more than if you were binge learning.</p>
+        </li>
+      </ul>
+
+    </section>
+
+
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
