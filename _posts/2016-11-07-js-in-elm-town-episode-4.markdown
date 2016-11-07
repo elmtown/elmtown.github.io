@@ -8,9 +8,9 @@ Javascript interop
 ## Sponsors
 
 Humblespark - [https://humblespark.com](https://humblespark.com)  
-Asteris - [https://aster.is](https://aster.is)
-Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
-Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
+Asteris - [https://aster.is](https://aster.is)  
+Day One - [http://dayoneapp.com/](http://dayoneapp.com/)  
+Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)  
 
 ## Show Notes
 
