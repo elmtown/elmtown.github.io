@@ -14,7 +14,17 @@ Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
 
 ## Show Notes
 
-Currently Unavailable
+- [JavaScript Interop](http://elm-lang.org:1234/guide/interop)
+- [Ports](http://elm-lang.org:1234/guide/interop#ports)
+- [Buuilding Nightingale Space](https://www.youtube.com/watch?v=lPXVfqwYmEA&list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd&index=10)
+- [elm-lang/dom](https://github.com/elm-lang/dom)
+- [Native Modules](https://github.com/NoRedInk/take-home/wiki/Writing-your-first-Elm-Native-module)
+- [elm-rollbar](https://github.com/NoRedInk/elm-rollbar)
+- [elm-plot](https://github.com/yjchoe/elm-plot)
+- [Should Developers Design?](http://hanselminutes.com/551/should-developers-design-with-iheanyi-ekechukwu)
+- [Chicago Cubs](http://m.mlb.com/news/article/207938228/chicago-cubs-win-2016-world-series/)
+- [krisajenkins/remotedata](https://github.com/krisajenkins/remotedata)
+- [Lord of the Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
 
 
 ## Listen
