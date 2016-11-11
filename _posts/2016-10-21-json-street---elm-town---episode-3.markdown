@@ -10,8 +10,21 @@ JSON decoders: What they are, how to build them, how to use them.
 Humblespark - [https://humblespark.com](https://humblespark.com)  
 Asteris - [https://aster.is](https://aster.is)
 
-## Show Notes Coming in the Future!
+## Show Notes
 
+Recording date: 2016-10-20
+Guests: Murphy, Brian
+
+(Times only very roughly accurate, noted pre-editing)
+
+(0:16:27) [Brian's blog posts](https://www.brianthicks.com/)
+(0:46:17) [json-to-elm](https://noredink.github.io/json-to-elm/)
+(0:54:43) [linkerd](https://linkerd.io/)
+(0:55:02) [elm-lang.org community page](http://elm-lang.org/community)
+(0:56:03) [SSCCE](http://sscce.org)
+(0:57:39) [elm-test on NPM](https://www.npmjs.com/package/elm-test), [elm-test elm package](http://package.elm-lang.org/packages/elm-community/elm-test/latest)
+(0:59:00) [YNAB](https://www.youneedabudget.com/)
+(1:02:19) [Yeoman Elm generator](https://github.com/danneu/generator-elm#readme)
 
 ## Listen
 
