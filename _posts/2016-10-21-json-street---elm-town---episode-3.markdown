@@ -17,14 +17,15 @@ Guests: Murphy, Brian
 
 (Times only very roughly accurate, noted pre-editing)
 
-(0:16:27) [Brian's blog posts](https://www.brianthicks.com/)
-(0:46:17) [json-to-elm](https://noredink.github.io/json-to-elm/)
-(0:54:43) [linkerd](https://linkerd.io/)
-(0:55:02) [elm-lang.org community page](http://elm-lang.org/community)
-(0:56:03) [SSCCE](http://sscce.org)
-(0:57:39) [elm-test on NPM](https://www.npmjs.com/package/elm-test), [elm-test elm package](http://package.elm-lang.org/packages/elm-community/elm-test/latest)
-(0:59:00) [YNAB](https://www.youneedabudget.com/)
-(1:02:19) [Yeoman Elm generator](https://github.com/danneu/generator-elm#readme)
+_ (0:16:27) [Brian's blog posts](https://www.brianthicks.com/)
+_ (0:46:17) [json-to-elm](https://noredink.github.io/json-to-elm/)
+_ (0:54:43) [linkerd](https://linkerd.io/)
+_ (0:55:02) [elm-lang.org community page](http://elm-lang.org/community)
+_ (0:56:03) [SSCCE](http://sscce.org)
+_ (0:57:39) [elm-test on NPM](https://www.npmjs.com/package/elm-test), [elm-test elm package](http://package.elm-lang.org/packages/elm-community/elm-test/latest)
+_ (0:59:00) [YNAB](https://www.youneedabudget.com/)
+_ (1:02:19) [Yeoman Elm generator](https://github.com/danneu/generator-elm#readme)
+
 
 ## Listen
 
