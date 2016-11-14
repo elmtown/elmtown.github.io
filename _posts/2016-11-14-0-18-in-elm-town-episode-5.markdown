@@ -12,6 +12,10 @@ Asteris - [https://aster.is](https://aster.is)
 Day One - [http://dayoneapp.com/](http://dayoneapp.com/)  
 Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)  
 
+# Thanks and Credits
+
+Fergus Meiklejohn - Audio mixing and editing
+
 ## Show Notes
 
 Guests: Murphy, Noah, Aaron V, Luke
