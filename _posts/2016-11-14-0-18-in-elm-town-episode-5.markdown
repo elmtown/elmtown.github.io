@@ -14,7 +14,7 @@ Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
 
 # Thanks and Credits
 
-Fergus Meiklejohn - Audio mixing and editing
+- Fergus Meiklejohn - Audio mixing and editing
 
 ## Show Notes
 
