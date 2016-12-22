@@ -17,23 +17,23 @@ Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
 Recording date: 2016-12-09
 Guests: Murphy Randle, Luke Westby, Kris Jenkins
 
-NOTE: The timestamps here were noted before editing, and may be wildly innacurate ;)
+- (0:28:58) [Learn You a Haskell](http://learnyouahaskell.com/)
+- (0:40:50) [formatting](https://hackage.haskell.org/package/formatting)
+- (0:41:35) [evancz/url-parser](http://package.elm-lang.org/packages/evancz/url-parser)
+- (0:49:33) Kris: [8 Bit Christmas Album](http://www.doctoroctoroc.com/8-bit-jesus/)
+- (0:50:24) Kris: [arturopala/elm-monocle](http://package.elm-lang.org/packages/arturopala/elm-monocle/latest/Monocle-Prism)
+- (0:51:00) Kris: [Haskell Distributed](http://haskell-distributed.github.io/)
+- (0:52:11) Kris: [etaque/elm-response](http://package.elm-lang.org/packages/etaque/elm-response/latest)
+- (0:52:32) Luke: [Platform.program](https://github.com/rtfeldman/elm-css/blob/master/src/Css/File.elm#L61-L67)
+- (0:55:15 ) Luke: [Sketching for Developers](https://www.crowdcast.io/e/sketchingfordevelopers/register)
+- Luke: [Author of Sketching for Developers](https://twitter.com/rizwanjavaid)
+- (0:56:10) Luke: [Jenn Schiffer, Engineer/Artist](https://www.youtube.com/watch?v=wewAC5X_CZ8)
+- (0:56:58) Murphy: [The Piano Guys : A family Christmas album](https://thepianoguys.com/shop/albums/piano-guys-family-christmas-cd/)
+- (0:57:19) Murphy: [GIR: Get It Right Premium Silicone Ultimate Spatula](https://www.amazon.com/GIR-Premium-Silicone-Ultimate-Spatula/dp/B00BJT651O)
+- (0:58:27) Murphy: [When Marnie Was There](https://www.amazon.com/When-Marnie-Was-There-Blu-ray/dp/B00ZAZEEDY/ref=sr_1_1?s=movies-tv&ie=UTF8&qid=1482169070&sr=1-1&keywords=when+marnie+was+there)
+- (0:59:03) Murphy: [Flirty Aprons](http://flirtyaprons.com/)
 
-- (0:31:03) [Learn You a Haskell](http://learnyouahaskell.com/)
-- (0:44:26) [formatting](https://hackage.haskell.org/package/formatting)
-- (0:44:53) [evancz/url-parser](http://package.elm-lang.org/packages/evancz/url-parser)
-- (0:53:07) Kris: [8 Bit Christmas Album](http://www.doctoroctoroc.com/8-bit-jesus/)
-- (0:54:01) Kris: [arturopala/elm-monocle](http://package.elm-lang.org/packages/arturopala/elm-monocle/latest/Monocle-Prism)
-- (0:54:38) Kris: [Haskell Distributed](http://haskell-distributed.github.io/)
-- (0:55:52) Kris: [etaque/elm-response](http://package.elm-lang.org/packages/etaque/elm-response/latest)
-- (0:56:17) Luke: [Platform.program](https://github.com/rtfeldman/elm-css/blob/master/src/Css/File.elm#L61-L67)
-- (0:59:14) Luke: [Sketching for Developers](https://www.crowdcast.io/e/sketchingfordevelopers/register)
-- (0:30:09) Luke: [Author of Sketching for Developers](https://twitter.com/rizwanjavaid)
-- (1:00:06) Luke: [Jenn Schiffer, Engineer/Artist](https://www.youtube.com/watch?v=wewAC5X_CZ8)
-- (1:00:52) Murphy: [The Piano Guys : A family Christmas album](https://thepianoguys.com/shop/albums/piano-guys-family-christmas-cd/)
-- (1:01:52) Murphy: [GIR: Get It Right Premium Silicone Ultimate Spatula](https://www.amazon.com/GIR-Premium-Silicone-Ultimate-Spatula/dp/B00BJT651O)
-- (1:02:48) Murphy: [When Marnie Was There](https://www.amazon.com/When-Marnie-Was-There-Blu-ray/dp/B00ZAZEEDY/ref=sr_1_1?s=movies-tv&ie=UTF8&qid=1482169070&sr=1-1&keywords=when+marnie+was+there)
-- (1:03:44) Murphy: [Flirty Aprons](http://flirtyaprons.com/)
+
 
 
 ## Listen
