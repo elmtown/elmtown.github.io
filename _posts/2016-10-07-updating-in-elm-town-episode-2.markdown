@@ -7,7 +7,7 @@ Discussion about the writing and simplification of update functions
 
 ## Sponsors
 
-Humblespark - [https://humblespark.com](https://humblespark.com)
+- Humblespark - [https://humblespark.com](https://humblespark.com)
 
 ## Show Notes – Updating-In-Elm-Town-Ep-2
 

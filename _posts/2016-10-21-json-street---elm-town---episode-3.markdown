@@ -7,8 +7,8 @@ JSON decoders: What they are, how to build them, how to use them.
 
 ## Sponsors
 
-Humblespark - [https://humblespark.com](https://humblespark.com)  
-Asteris - [https://aster.is](https://aster.is)
+- Humblespark - [https://humblespark.com](https://humblespark.com)  
+- Asteris - [https://aster.is](https://aster.is)
 
 ## Show Notes
 

@@ -7,10 +7,13 @@ Special guest Max Goldstein talks about elm-test and nonempty-list!
 
 ## Sponsors
 
-Humblespark - [https://humblespark.com](https://humblespark.com)
-Asteris - [https://aster.is](https://aster.is)
-Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
-Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
+- Humblespark - [https://humblespark.com](https://humblespark.com)
+- Asteris - [https://aster.is](https://aster.is)
+- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
+- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
+
+## Thanks
+- Big huge super duper thanks to [Fergus](https://twitter.com/airuyi) for editing this, and all episodes!
 
 ## Show Notes
 

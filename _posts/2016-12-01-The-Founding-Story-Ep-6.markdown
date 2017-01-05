@@ -7,10 +7,10 @@ Talking with Evan about how thing started, where Elm came from, and where it's g
 
 ## Sponsors
 
-Humblespark - [https://humblespark.com](https://humblespark.com)
-Asteris - [https://aster.is](https://aster.is)
-Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
-Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
+- Humblespark - [https://humblespark.com](https://humblespark.com)
+- Asteris - [https://aster.is](https://aster.is)
+- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
+- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
 
 ## Show Notes
 
