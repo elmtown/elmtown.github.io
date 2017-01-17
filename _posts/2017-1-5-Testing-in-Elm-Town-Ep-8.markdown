@@ -1,6 +1,6 @@
 ---
 published: true
-title: Remote Data in Elm Town - Episode 8
+title: Testing in Elm Town - Episode 8
 layout: post
 ---
 Special guest Max Goldstein talks about elm-test and nonempty-list!
