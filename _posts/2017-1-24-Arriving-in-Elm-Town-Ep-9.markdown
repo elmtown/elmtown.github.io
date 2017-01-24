@@ -3,7 +3,7 @@ published: true
 title: Arriving in Elm Town - Episode 9
 layout: post
 ---
-Tessa, Terekza, and Richard join us for a discussion about getting started with Elm!
+Tessa, Terezka, and Richard join us for a discussion about getting started with Elm!
 
 ## Sponsors
 
