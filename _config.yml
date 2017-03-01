@@ -1,10 +1,10 @@
 excerpt_separator: ""
-pygments: true
+highlighter: rouge
 markdown: kramdown
 url: http://elmtown.github.io
 title: Elm Town
-email: 
+email:
 author: Murphy Randle
 description: A podcast about Elm and its people
-paginate: 50
-google_analytics: 
+gems: [jekyll-paginate]
+google_analytics:
