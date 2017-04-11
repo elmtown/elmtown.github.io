@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <title>History in Elm Town, Signals! - Episode 11 &#8211; Elm Town</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
-  {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="A podcast about Elm and its people">
+  <meta name="author" content="Murphy Randle">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://localhost:4000/2017/04/03/History-Signals-Episode-11.html">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+  <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+  <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -25,9 +25,10 @@
     <header class="site-header px2 px-responsive">
       <div class="mt2 wrap">
         <div class="measure">
-          <a href="{{ site.url }}" class="left">{{ site.title }}</a>
+          <a href="http://localhost:4000" class="left">Elm Town</a>
           <nav class="site-nav right">
-            {% include navigation.html %}
+            <a href="/contact/">Contact</a>
+
           </nav>
           <div class="clearfix"></div>
         </div>
@@ -131,11 +132,64 @@
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        {{ content }}
+        <div class="post-header mb2">
+  <h1 class="py2">History in Elm Town, Signals! - Episode 11</h1>
+  <span class="post-meta">Apr 3, 2017</span>
+</div>
+
+<article class="post-content">
+  <p>Learn about the evolution and deprecation of signals from Evan!</p>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<ul>
+  <li>Humblespark - <a href="https://humblespark.com">https://humblespark.com</a></li>
+  <li>Day One - <a href="http://dayoneapp.com/">http://dayoneapp.com/</a></li>
+  <li>Daily Drip - <a href="https://www.dailydrip.com/">https://www.dailydrip.com/</a></li>
+</ul>
+
+<h2 id="thanks">Thanks</h2>
+<ul>
+  <li>Big huge super duper thanks to <a href="https://twitter.com/airuyi">Fergus</a> for editing this, and all episodes!</li>
+</ul>
+
+<h2 id="show-notes">Show Notes</h2>
+<p>Show Notes – Elm Town 11 - The History of Signals</p>
+
+<p>Recording date: 2017-03-14
+Guests: splodingsocks, Evan</p>
+
+<ul>
+  <li>(0:10:37) <a href="http://haskell.cs.yale.edu/?post_type=publication&amp;p=215">Functional Reactive Animation</a></li>
+  <li>(0:37:06) <a href="http://slawrence.github.io/vessel/">Vessel</a></li>
+  <li>(1:08:26) <a href="http://rise4fun.com/Koka/tutorial/guide">Koka</a></li>
+  <li>(1:11:10) <a href="https://en.wikipedia.org/wiki/Let's_Get_Free">Let’s get free : Dead Pres</a></li>
+  <li>(1:13:16) <a href="http://package.elm-lang.org/packages/krisajenkins/remotedata/latest">Remote Data</a></li>
+  <li>(1:13:42) <a href="http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html">How Elm Slays a UI Anti-Pattern</a></li>
+</ul>
+
+<h2 id="listen">Listen</h2>
+<iframe src="https://cast.rocks/player/6039/Elm-Town-11---The-History-of-Signals.mp3?episodeTitle=History%20in%20Elm%20Town%2C%20Signals!%20-%20Episode%2011&amp;podcastTitle=Elm%20Town&amp;episodeDate=April%203rd%2C%202017&amp;imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&amp;itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+</article>
+
       </div>
     </div>
   </div>
 
-  {% include footer.html %}
+  <footer class="footer">
+  <p style="padding: .25em; text-align: center">Podcast feed: <b>http://cast.rocks/hosting/6039/feeds/8YSE5.xml</b></p>
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
 </body>
 </html>

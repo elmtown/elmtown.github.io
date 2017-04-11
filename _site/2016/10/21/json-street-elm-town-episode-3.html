@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <title>JSON Street, Elm Town (Episode 3) &#8211; Elm Town</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
-  {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="A podcast about Elm and its people">
+  <meta name="author" content="Murphy Randle">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://localhost:4000/2016/10/21/json-street-elm-town-episode-3.html">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+  <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+  <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -25,9 +25,10 @@
     <header class="site-header px2 px-responsive">
       <div class="mt2 wrap">
         <div class="measure">
-          <a href="{{ site.url }}" class="left">{{ site.title }}</a>
+          <a href="http://localhost:4000" class="left">Elm Town</a>
           <nav class="site-nav right">
-            {% include navigation.html %}
+            <a href="/contact/">Contact</a>
+
           </nav>
           <div class="clearfix"></div>
         </div>
@@ -131,11 +132,62 @@
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        {{ content }}
+        <div class="post-header mb2">
+  <h1 class="py2">JSON Street, Elm Town (Episode 3)</h1>
+  <span class="post-meta">Oct 21, 2016</span>
+</div>
+
+<article class="post-content">
+  <p>JSON decoders: What they are, how to build them, how to use them.</p>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<ul>
+  <li>Humblespark - <a href="https://humblespark.com">https://humblespark.com</a></li>
+  <li>Asteris - <a href="https://aster.is">https://aster.is</a></li>
+</ul>
+
+<h2 id="show-notes">Show Notes</h2>
+
+<p>Recording date: 2016-10-20
+Guests: Murphy, Brian</p>
+
+<p>(Times only very roughly accurate, noted pre-editing)</p>
+
+<ul>
+  <li>(0:16:27) <a href="https://www.brianthicks.com/">Brian’s blog posts</a></li>
+  <li>(0:46:17) <a href="https://noredink.github.io/json-to-elm/">json-to-elm</a></li>
+  <li>(0:54:43) <a href="https://linkerd.io/">linkerd</a></li>
+  <li>(0:55:02) <a href="http://elm-lang.org/community">elm-lang.org community page</a></li>
+  <li>(0:56:03) <a href="http://sscce.org">SSCCE</a></li>
+  <li>(0:57:39) <a href="https://www.npmjs.com/package/elm-test">elm-test on NPM</a>, <a href="http://package.elm-lang.org/packages/elm-community/elm-test/latest">elm-test elm package</a></li>
+  <li>(0:59:00) <a href="https://www.youneedabudget.com/">YNAB</a></li>
+  <li>(1:02:19) <a href="https://github.com/danneu/generator-elm#readme">Yeoman Elm generator</a></li>
+</ul>
+
+<h2 id="listen">Listen</h2>
+
+<iframe src="https://cast.rocks/player/6039/JSON-Street--Elm-Town--Episode-3-.mp3?episodeTitle=JSON%20Street%2C%20Elm%20Town%20(Episode%203)&amp;podcastTitle=Elm%20Town&amp;episodeDate=October%2021st%2C%202016&amp;imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+</article>
+
       </div>
     </div>
   </div>
 
-  {% include footer.html %}
+  <footer class="footer">
+  <p style="padding: .25em; text-align: center">Podcast feed: <b>http://cast.rocks/hosting/6039/feeds/8YSE5.xml</b></p>
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
 </body>
 </html>

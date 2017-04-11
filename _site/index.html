@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <title>Elm Town</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
-  {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="A podcast about Elm and its people">
+  <meta name="author" content="Murphy Randle">
+  
+  <link rel="canonical" href="http://localhost:4000/">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+  <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+  <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -25,9 +25,10 @@
     <header class="site-header px2 px-responsive">
       <div class="mt2 wrap">
         <div class="measure">
-          <a href="{{ site.url }}" class="left">{{ site.title }}</a>
+          <a href="http://localhost:4000" class="left">Elm Town</a>
           <nav class="site-nav right">
-            {% include navigation.html %}
+            <a href="/contact/">Contact</a>
+
           </nav>
           <div class="clearfix"></div>
         </div>
@@ -131,11 +132,46 @@
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        {{ content }}
+        <div class="home">
+
+  <div class="posts">
+    
+  </div>
+
+  <div class="pagination clearfix mb1 mt4">
+  <div class="left">
+    
+      <span class="pagination-item disabled">Newer</span>
+    
+  </div>
+  <div class="right">
+    
+      <span class="pagination-item disabled">Older</span>
+    
+  </div>
+</div>
+
+
+  <!--<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>-->
+</div>
+
       </div>
     </div>
   </div>
 
-  {% include footer.html %}
+  <footer class="footer">
+  <p style="padding: .25em; text-align: center">Podcast feed: <b>http://cast.rocks/hosting/6039/feeds/8YSE5.xml</b></p>
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
 </body>
 </html>

@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <title>Editing In Elm Town Episode 1 &#8211; Elm Town</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
-  {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="description" content="A podcast about Elm and its people">
+  <meta name="author" content="Murphy Randle">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://localhost:4000/2016/09/23/editing-in-elm-town-episode-1.html">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/css/basscss.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/solarized-dark.css" | prepend: site.baseurl }}" type="text/css">
+  <link rel="stylesheet" href="/css/basscss.css" type="text/css">
+  <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+  <link rel="stylesheet" href="/css/solarized-dark.css" type="text/css">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -25,9 +25,10 @@
     <header class="site-header px2 px-responsive">
       <div class="mt2 wrap">
         <div class="measure">
-          <a href="{{ site.url }}" class="left">{{ site.title }}</a>
+          <a href="http://localhost:4000" class="left">Elm Town</a>
           <nav class="site-nav right">
-            {% include navigation.html %}
+            <a href="/contact/">Contact</a>
+
           </nav>
           <div class="clearfix"></div>
         </div>
@@ -131,11 +132,65 @@
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        {{ content }}
+        <div class="post-header mb2">
+  <h1 class="py2">Editing In Elm Town Episode 1</h1>
+  <span class="post-meta">Sep 23, 2016</span>
+</div>
+
+<article class="post-content">
+  <h2 id="links">Links:</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/channel/UCOpGiN9AkczVjlpGDaBwQrQ">Elm Conf Talks</a></li>
+  <li><a href="https://plugins.jetbrains.com/plugin/8192">IntelliJ Plugin</a></li>
+  <li><a href="https://medium.com/the-composition/software-that-writes-and-evolves-software-953578a6fc36#.s6540aoft">The post about Atomist</a></li>
+  <li><a href="https://github.com/rundis/elm-light">Light Table Plugin</a></li>
+  <li><a href="https://atom.io/packages/linter-elm-make">Atom Linter Plugin</a></li>
+  <li><a href="https://atom.io/packages/elm-format">Atom Format Plugin</a></li>
+  <li><a href="https://atom.io/packages/elmjutsu">Atom Refactoring Plugin</a></li>
+  <li><a href="https://www.youtube.com/watch?v=EK4qctJOMaU">Chris Ford’s talk</a></li>
+  <li><a href="http://seriouspony.com/badass-users-the-book/">Kathy’s book</a></li>
+  <li><a href="http://package.elm-lang.org/packages/Fresheyeball/elm-return/latest">elm-return</a></li>
+  <li><a href="http://haskellbook.com/">Haskell Book</a></li>
+</ul>
+
+<h2 id="feed">Feed</h2>
+<p>Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+  <li><strong>Big thanks to Egghead.io for sharing their Elm logo with us.</strong></li>
+  <li><strong>And big thanks to Day One for making this podcast possible.</strong></li>
+</ul>
+
+<h2 id="listen">Listen</h2>
+
+<p>
+<audio controls="">
+    <source src="http://cast.rocks/hosting/6039/Editing-in-Elm-Town-Ep-1-Remix.mp3" type="audio/mpeg" />
+</audio>
+</p>
+
+</article>
+
       </div>
     </div>
   </div>
 
-  {% include footer.html %}
+  <footer class="footer">
+  <p style="padding: .25em; text-align: center">Podcast feed: <b>http://cast.rocks/hosting/6039/feeds/8YSE5.xml</b></p>
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <small>
+        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+
 </body>
 </html>
