@@ -1,8 +1,9 @@
 ---
-published: true
 title: JSON Street, Elm Town (Episode 3)
+date: 2016-10-21 00:00:00 Z
 layout: post
 ---
+
 JSON decoders: What they are, how to build them, how to use them.
 
 ## Sponsors

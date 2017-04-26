@@ -1,8 +1,9 @@
 ---
-published: true
 title: Testing in Elm Town - Episode 8
+date: 2017-01-02 00:00:00 Z
 layout: post
 ---
+
 Special guest Max Goldstein talks about elm-test and nonempty-list!
 
 ## Sponsors

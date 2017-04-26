@@ -1,8 +1,9 @@
 ---
-published: true
 title: Production in Elm Town - Episode 10
+date: 2017-01-12 00:00:00 Z
 layout: post
 ---
+
 Kevin Yank and Richard Feldman join us for a discussion about shipping!
 
 ## Sponsors

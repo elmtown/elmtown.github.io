@@ -1,8 +1,9 @@
 ---
-published: true
 title: Remote Data in Elm Town - Episode 7
+date: 2016-12-19 00:00:00 Z
 layout: post
 ---
+
 Special guest Kris A. Jenkins tells us about Hakell, and remotedata!
 
 ## Sponsors

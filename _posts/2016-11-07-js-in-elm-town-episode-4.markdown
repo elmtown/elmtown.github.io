@@ -1,8 +1,9 @@
 ---
-published: true
 title: JS in Elm Town (Episode 4)
+date: 2016-11-07 00:00:00 Z
 layout: post
 ---
+
 Javascript interop
 
 ## Sponsors

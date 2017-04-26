@@ -1,6 +1,6 @@
 ---
-published: true
-title: # Editing in Elm Town - Episode 1
+title: Editing In Elm Town Episode 1
+date: 2016-09-23 00:00:00 Z
 layout: post
 ---
 

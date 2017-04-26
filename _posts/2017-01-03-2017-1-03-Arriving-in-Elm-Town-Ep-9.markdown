@@ -1,8 +1,9 @@
 ---
-published: true
 title: Arriving in Elm Town - Episode 9
+date: 2017-01-03 00:00:00 Z
 layout: post
 ---
+
 Tessa, Terezka, and Richard join us for a discussion about getting started with Elm!
 
 ## Sponsors

@@ -1,8 +1,9 @@
 ---
-published: true
 title: Updating in Elm Town (Episode 2)
+date: 2016-10-07 00:00:00 Z
 layout: post
 ---
+
 Discussion about the writing and simplification of update functions
 
 ## Sponsors

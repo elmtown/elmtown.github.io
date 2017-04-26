@@ -1,8 +1,9 @@
 ---
-published: true
 title: History in Elm Town, Signals! - Episode 11
+date: 2017-04-03 00:00:00 Z
 layout: post
 ---
+
 Learn about the evolution and deprecation of signals from Evan!
 
 ## Sponsors

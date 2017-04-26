@@ -1,8 +1,9 @@
 ---
-published: true
 title: The Founding Story - Episode 6
+date: 2016-12-01 00:00:00 Z
 layout: post
 ---
+
 Talking with Evan about how thing started, where Elm came from, and where it's going!
 
 ## Sponsors

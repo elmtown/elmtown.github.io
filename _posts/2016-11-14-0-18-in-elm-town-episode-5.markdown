@@ -1,8 +1,9 @@
 ---
-published: true
 title: 0.18 in Elm Town - Episode 5
+date: 2016-11-14 00:00:00 Z
 layout: post
 ---
+
 0.18!
 
 ## Sponsors
