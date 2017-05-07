@@ -34,14 +34,6 @@ module.exports = {
     ]
   },
   plugins: [
-      // new CopyWebpackPlugin([
-      //   {from: './public', to: './'},
-      //   {from: './index.html', to: '../'},
-      // ],{
-      //   ignore: [
-      //     './components/*'
-      //   ]
-      // }),
-      new ExtractTextPlugin('css/main.css')
+      new ExtractTextPlugin('./main.css')
     ]
 }
