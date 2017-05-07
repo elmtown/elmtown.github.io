@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => (
+const Footer = () => (
   <section className="sponser-container">
     <h4>We <i className="heart">love</i> our sponsors, and we hope you will, too.</h4>
     <ul>
@@ -12,4 +12,4 @@ const footer = () => (
   </section>
 )
 
-module.exports = React.createElement(footer)
+export default Footer

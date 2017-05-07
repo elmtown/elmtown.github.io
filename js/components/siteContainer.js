@@ -1,14 +1,14 @@
 import React from 'react'
-import header from './header'
-import latestPostContainer from './latestPostContainer'
-import footer from './footer'
+import Header from './header'
+import PostsContainer from './postsContainer'
+import Footer from './footer'
 
 const siteContainer = () => (
   <div>
-    { header }
-    { latestPostContainer }
-    { footer }
+    <Header />
+    <PostsContainer />
+    <Footer />
   </div>
 )
 
-module.exports = React.createElement(siteContainer)
+export default siteContainer
