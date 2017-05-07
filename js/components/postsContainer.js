@@ -9,12 +9,25 @@ async function getPostData () {
   return postData
 }
 
-const Post = ({data = {}}) => (
-  <li className='post'>
+const LatestPost = ({ data = {}}) => (
+  <li className='post latest'>
     <header>
-      <span className='date'></span>
-      <a href='#open'><h3></h3></a>
+      <h2>Latest Post</h2>
+      <span className='date'>{data.shortdate}</span><br />
+      <hr />
+      <a href='#open'><h3>{data.title}</h3></a>
       <p></p>
+    </header>
+  </li>
+)
+
+const Post = ({ data = {} }) => (
+  <li className='post'>
+    {console.log(data)}
+    <header>
+      <span className='date'>{data.shortdate}</span>
+      <a href='#open'><h3>{data.title}</h3></a>
+      <p>{data.excerpt}</p>
     </header>
   </li>
 )
@@ -23,7 +36,10 @@ const PostsContainer = ({ data = [] }) => (
   <main>
     <section className='posts-container'>
       <ul>
-        { data.map(x => <Post data=({x}) />) }
+        <LatestPost data={data[0]} />
+        { data.map(x => {
+          if (x !== data[0]) return <Post data={x} />
+        } ) }
       </ul>
     </section>
   </main>

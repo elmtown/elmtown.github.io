@@ -85,6 +85,9 @@ header.main{
     transition: box-shadow 0.7s;
     border-bottom: 1px solid rgba(95,180,203,0.1);
     min-width: 280px;
+    h3{
+      width: 90%;
+    }
     a{
       text-decoration: none;
     }
