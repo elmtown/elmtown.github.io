@@ -1,14 +1,30 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Header from './header'
 import PostsContainer from './postsContainer'
 import Footer from './footer'
 
-const siteContainer = () => (
-  <div>
-    <Header />
-    <PostsContainer />
-    <Footer />
-  </div>
-)
+class App extends Component {
+  constructor (props) {
+    super(props)
 
-export default siteContainer
+    this.state = {
+      posts: []
+    }
+  }
+
+  componentWillMount () {
+    fetch('/api/posts.json').then(response => response.json()).then(response => this.setState({posts: response}))
+  }
+
+  render () {
+    return (
+      <div>
+        <Header />
+        <PostsContainer data={this.state.posts}/>
+        <Footer />
+      </div>
+    )
+  }
+}
+
+export default App

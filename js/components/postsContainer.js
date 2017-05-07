@@ -9,21 +9,21 @@ async function getPostData () {
   return postData
 }
 
-const Post = ({posts}) => (
+const Post = ({data = {}}) => (
   <li className='post'>
     <header>
       <span className='date'></span>
-      <a href='#open'><h3>{ posts }</h3></a>
-      <p>Featuring Tessa, Terezka, and Richard</p>
+      <a href='#open'><h3></h3></a>
+      <p></p>
     </header>
   </li>
 )
 
-const PostsContainer = () =>(
+const PostsContainer = ({ data = [] }) => (
   <main>
     <section className='posts-container'>
       <ul>
-        <Post postData='???'/>
+        { data.map(x => <Post data=({x}) />) }
       </ul>
     </section>
   </main>
