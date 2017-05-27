@@ -148,10 +148,6 @@ header.main{
   }
 }
 
-#open:target{
-  display: block;
-}
-
 .overlay{
   display: none;
   position: fixed;
@@ -161,6 +157,10 @@ header.main{
   width: 100%;
   background: rgba(0,0,0,0.4);
   z-index:3;
+
+  &.show{
+    display: block;
+  }
 }
 
 .info{

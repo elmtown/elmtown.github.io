@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 import Header from './header'
 import PostsContainer from './postsContainer'
 import Footer from './footer'
@@ -18,11 +23,13 @@ class App extends Component {
 
   render () {
     return (
-      <div>
-        <Header />
-        <PostsContainer data={this.state.posts}/>
-        <Footer />
-      </div>
+      <Router>
+        <div>
+          <Header />
+          <PostsContainer data={this.state.posts}/>
+          <Footer />
+        </div>
+      </Router>
     )
   }
 }
