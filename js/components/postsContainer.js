@@ -1,88 +1,64 @@
-import React from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import {slugify} from '../utils'
 
-async function getPostData () {
-  const postData = await fetch('/api/posts.json')
-    .then(res => res.json())
-    .then(res => res)
-
-  return postData
-}
-
-let selectedPost = {}
-let show = false
-
-const updateSelectedPost = ({data, display}) => {
-  console.log('updatedThingCalled')
-  selectedPost = data
-  show = display
-}
-
-const ExpandedPost = () => (
-  <div id="open" className={ show ? "overlay show" : "overlay" } >
-    <article className="page">
-      <a href="#" className="close">x</a>
-      <header>
-        <section className="ep-meta">
-          <span className="date">{selectedPost.shortdate}</span>
-          <h3>{selectedPost.title}</h3>
-          <p>{selectedPost.content}</p>
-        </section>
-      </header>
-      <section className="container info">
-        <div>
-          <h2>Listen</h2>
-          <hr></hr>
-          <h2 id="links">Links:</h2>
-          <ul>
-            <li>links</li>
-          </ul>
-          <h2 id="feed">Feed</h2>
-          <hr></hr>
-          <p>Feed link: feedLink</p>
-          <h2 id="acknowledgtements">Acknowledgtements</h2>
-          <hr></hr>
-        </div>
-      </section>
-    </article>
-  </div>
-)
-
-const LatestPost = ({ data = {} }) => (
+const LatestPost = ({ data = { title: '' } }) => (
   <li className='post latest'>
-    <header>
-      <h2>Latest Post</h2>
-      <span className='date'>{data.shortdate}</span><br />
-      <hr />
-      <Link to='#open' onClick={() => updateSelectedPost({data, display: true})}><h3>{data.title}</h3></Link>
-      <p></p>
-    </header>
+    <Link to={`/post/${slugify(data.title)}`}>
+      <header>
+        <h2>Latest Post</h2>
+        <span className='date'>{data.shortdate}</span><br />
+        <hr />
+        <h3>{data.title}</h3>
+      </header>
+    </Link>
   </li>
 )
 
 const Post = ({ data = {} }) => (
   <li className='post'>
-    <header>
-      <span className='date'>{data.shortdate}</span>
-      <Link to='#open' onClick={updateSelectedPost({data, display: true})}><h3>{data.title}</h3></Link>
-      <p>{data.excerpt}</p>
-    </header>
+    <Link to={`/post/${slugify(data.title)}`}>
+      <header>
+        <span className='date'>{data.shortdate}</span>
+        <h3>{data.title}</h3>
+        <p>{data.excerpt}</p>
+      </header>
+    </Link>
   </li>
 )
 
-const PostsContainer = ({ data = [] }) => (
-  <main>
-    <section className='posts-container'>
-      <ul>
-        <LatestPost data={data[0]} />
-        { data.map(x => {
-          if (x !== data[0]) return <Post data={x} />
-        } ) }
-      </ul>
-      <ExpandedPost />
-    </section>
-  </main>
-)
+class PostsContainer extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      posts: []
+    }
+  }
+
+  componentWillMount(){
+    this.setState({posts: this.context.store.posts})
+  }
+
+  render() {
+      const {posts} = this.context.store
+      return(
+      <main>
+        <section className='posts-container'>
+          <ul>
+            <LatestPost data={posts[0]} />
+            { posts.map((data, index) => <Post data={data} key={index} /> ) }
+          </ul>
+        </section>
+      </main>
+    )
+  }
+}
+
+PostsContainer.contextTypes = {
+  store: PropTypes.object
+}
 
 export default PostsContainer

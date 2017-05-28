@@ -62,6 +62,7 @@ li{
 
 header.main{
   margin-bottom: 1rem;
+  margin-left: 5%;
   padding: 2rem 0;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -149,7 +150,6 @@ header.main{
 }
 
 .overlay{
-  display: none;
   position: fixed;
   top:0;
   left:0;
@@ -157,14 +157,18 @@ header.main{
   width: 100%;
   background: rgba(0,0,0,0.4);
   z-index:3;
-
-  &.show{
-    display: block;
-  }
 }
 
 .info{
   overflow: scroll;
+
+  h2{
+    margin-top: 2rem;
+  }
+
+  p{
+    margin-bottom: 2rem;
+  }
 }
 
 .container{
@@ -192,6 +196,10 @@ header.main{
   }
   .info{
     flex:2;
+
+    li {
+      margin-top: 1rem;
+    }
   }
   .close{
     position: absolute;
@@ -203,7 +211,7 @@ header.main{
   }
 }
 
-.sponser-container{
+.sponsor-container{
   width:70%;
   text-align: center;
   margin: 60px auto 0 auto;
@@ -229,6 +237,7 @@ header.main{
   header.main{
     position: fixed;
     margin-bottom: 2rem;
+    left: 5%;
   }
 
 
@@ -250,10 +259,11 @@ header.main{
     }
   }
 
-  .sponser-container{
+  .sponsor-container{
     position: fixed;
     width:45%;
     bottom: 1rem;
+    left: 5%;
     ul{
       display: flex;
       align-items: center;
@@ -273,13 +283,25 @@ header.main{
       align-items: center;
     }
     .info > div {
-      width: 50%;
+      width: 90%;
       margin: auto;
+    }
+    .close{
+      right:4%;
+      color:#ccc;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .page {
+    .info > div {
+      width: 50%;
     }
     .close{
       right:2%;
       color:#ccc;
     }
   }
-
 }

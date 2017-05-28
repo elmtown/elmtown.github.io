@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => (
-  <section className="sponser-container">
+  <section className="sponsor-container">
     <h4>We <i className="heart">love</i> our sponsors, and we hope you will, too.</h4>
     <ul>
       <li><img src="https://cloud.githubusercontent.com/assets/22400633/20069227/fae09f7e-a4d8-11e6-9404-3f1fa8566f6e.png" alt="Humble Spark Logo"/></li>
