@@ -4,7 +4,15 @@ date: 2016-09-23 00:00:00 Z
 layout: post
 ---
 
-## Links:
+## Listen
+---
+
+<audio controls>
+    <source src="http://cast.rocks/hosting/6039/Editing-in-Elm-Town-Ep-1-Remix.mp3" type="audio/mpeg">
+</audio>
+
+## Links
+---
 
 - [Elm Conf Talks](https://www.youtube.com/channel/UCOpGiN9AkczVjlpGDaBwQrQ)
 - [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/8192)
@@ -18,18 +26,11 @@ layout: post
 - [elm-return](http://package.elm-lang.org/packages/Fresheyeball/elm-return/latest)
 - [Haskell Book](http://haskellbook.com/)
 
-## Feed
-Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml
+<!--## Feed
+Feed link: http://cast.rocks/hosting/6039/feeds/8YSE5.xml-->
 
-## Acknowledgements
+## Thanks
+---
 
 - **Big thanks to Egghead.io for sharing their Elm logo with us.**
 - **And big thanks to Day One for making this podcast possible.**
-
-## Listen
-
-<p>
-<audio controls>
-    <source src="http://cast.rocks/hosting/6039/Editing-in-Elm-Town-Ep-1-Remix.mp3" type="audio/mpeg">
-</audio>
-</p>

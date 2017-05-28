@@ -4,18 +4,38 @@ date: 2016-12-01 00:00:00 Z
 layout: post
 ---
 
-Talking with Evan about how thing started, where Elm came from, and where it's going!
+Talking with Evan about how things started, where Elm came from, and where it's going!
+
+## Listen
+--
+
+<audio controls>
+    <source src="http://cast.rocks/hosting/6039/Elm-Town-6-Origin-Story.mp3" type="audio/mpeg">
+</audio>
+
+<!--<iframe src="https://cast.rocks/player/6039/Elm-Town-6-Origin-Story.mp3?episodeTitle=The%20Founding%20Story%2C%20Elm%20Town%20-%20Episode%206&podcastTitle=Elm%20Town&episodeDate=December%205th%2C%202016&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>-->
+
 
 ## Sponsors
+---
 
 - Humblespark - [https://humblespark.com](https://humblespark.com)
 - Asteris - [https://aster.is](https://aster.is)
 - Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
 - Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
 
-## Show Notes
+<!--## Show Notes-->
 
-Guests: Murphy, Evan, Tessa, Matt
+## Guests
+---
+
+- [Murphy](https://twitter.com/splodingsocks)
+- [Evan](https://twitter.com/czaplic)
+- [Tessa](https://twitter.com/t_kelly9)
+- Matt
+
+## Links
+---
 
 (Times are only roughly correct. Noted pre-editing.)
 
@@ -36,7 +56,3 @@ Guests: Murphy, Evan, Tessa, Matt
 - (1:22:05) [Murphy: sporto/erl](http://package.elm-lang.org/packages/sporto/erl/latest)
 - (1:22:21) [Murphy: Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8)
 - (1:22:54) [Evan: Teach Yourself Programming in 10 Years](http://wiki.c2.com/?TeachYourselfProgrammingInTenYears)
-
-
-## Listen
-<iframe src="https://cast.rocks/player/6039/Elm-Town-6-Origin-Story.mp3?episodeTitle=The%20Founding%20Story%2C%20Elm%20Town%20-%20Episode%206&podcastTitle=Elm%20Town&episodeDate=December%205th%2C%202016&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>

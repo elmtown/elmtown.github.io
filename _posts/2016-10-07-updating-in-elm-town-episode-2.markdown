@@ -6,14 +6,33 @@ layout: post
 
 Discussion about the writing and simplification of update functions
 
+## Listen
+---
+
+<audio controls>
+    <source src="http://cast.rocks/hosting/6039/Updating-In-Elm-Town-Ep-2.mp3" type="audio/mpeg">
+</audio>
+
+<!--<iframe src="https://cast.rocks/player/6039/Updating-In-Elm-Town-Ep-2.mp3?episodeTitle=Updating%20in%20Elm%20Town%20-%20Episode%202&podcastTitle=Elm%20Town&episodeDate=October%207th%2C%202016&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>-->
+
 ## Sponsors
+---
 
 - Humblespark - [https://humblespark.com](https://humblespark.com)
 
-## Show Notes – Updating-In-Elm-Town-Ep-2
+<!--## Show Notes – Updating-In-Elm-Town-Ep-2-->
 
-Recording date: 2016-10-07
-Guests: Murphy, Brian, Luke
+<!--Recording date: 2016-10-07-->
+
+## Guests
+---
+
+- [Murphy](https://twitter.com/splodingsocks)
+- Brian
+- Luke
+
+## Links
+---
 
 - (0:02:13) [Humblespark](http://humblespark.com)
 - (0:11:33) [Converge](http://converge.aster.is)
@@ -35,7 +54,3 @@ Guests: Murphy, Brian, Luke
 - (1:00:04) [Hacked](https://www.hackedpodcast.com/)
 - (1:01:25) [Gizra post](http://www.gizra.com/content/elm-inbox-simulation/)
 
-
-## Listen
-
-<iframe src="https://cast.rocks/player/6039/Updating-In-Elm-Town-Ep-2.mp3?episodeTitle=Updating%20in%20Elm%20Town%20-%20Episode%202&podcastTitle=Elm%20Town&episodeDate=October%207th%2C%202016&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
