@@ -38,6 +38,9 @@ Special guest Max Goldstein talks about elm-test and nonempty-list!
 <!--Recording date: 2017-01-02
 Guests: splodingsocks, Max-->
 
+## Links
+---
+
 - (0:28:26) [elm-test](http://package.elm-lang.org/packages/elm-community/elm-test/latest)
 - (0:29:20) [Quick Check](https://hackage.haskell.org/package/QuickCheck)
 - (0:42:19) [nonempty-list](http://package.elm-lang.org/packages/mgold/elm-nonempty-list/3.0.0/List-Nonempty)
