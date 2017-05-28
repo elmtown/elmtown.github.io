@@ -54,4 +54,6 @@ Guests: splodingsocks, Max-->
 
 This episode has about a 10 minute excerpt that's mostly conversation about Haskell. The 10 minutes have been published separately, and can be listened to here:
 
-<iframe src="https://cast.rocks/player/6039/Episode-8-Excerpt---Talking-about-Haskell.mp3?episodeTitle=An%20Excerpt%20Cut%20from%20Episode%208%20-%20Talking%20about%20Haskell&podcastTitle=Elm%20Town&episodeDate=January%205th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+<audio controls>
+    <source src="http://cast.rocks/hosting/6039/Episode-8-Excerpt---Talking-about-Haskell.mp3" type="audio/mpeg">
+</audio>
