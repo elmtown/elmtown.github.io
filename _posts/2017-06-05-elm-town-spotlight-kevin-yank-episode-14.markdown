@@ -5,7 +5,7 @@ tags:
 - spotlight
 ---
 
-# Show Notes – Elm Town 14 - Spotlight on Kevin Yank
+# Show Notes
 
 Recording date: 2017-05-31
 Guests: Murphy Randle, Kevin-Yank
