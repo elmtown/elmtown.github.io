@@ -15,7 +15,7 @@ Here's a little pre-roll that explains those things in audio form:
 
 That's all! Here's the show:
 
-Show Notes – Elm Town 15 - Spotlight on Hardy Jones
+# Elm Town 15 - Spotlight on Hardy Jones
 
 Recording date: 2017-06-06
 Guests: Murphy Randle, Hardy Jones
