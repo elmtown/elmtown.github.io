@@ -5,6 +5,10 @@ date: 2017-09-11 10:31:00 Z
 
 # Show Notes – Elm Town 19 - Learning in Elm Town with Josh Robertson
 
+Corrections:
+- Murphy said "welcome to Elm Town episode 18", but this is, in fact, episode 19.
+- Murphy said we were talking with Josh Roberts, but Josh's last name is really "Robertson". Sorry, Josh
+
 Recording date: 2017-08-28
 Guests: Murphy Randle, Josh Robertson
 
