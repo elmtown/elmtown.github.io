@@ -1,12 +1,12 @@
 ---
-title: Elm Town Spotlight - Mario Rogic (Episode 18)
+title: Elm Town 18 - Spotlight on Mario Rogic
 date: 2017-08-28 16:53:00 Z
 ---
 
-# Show Notes – Elm Town 18 - Spotlight on Mario Rogic
+# Show Notes
 
 Recording date: 2017-08-15
-Guests: Murphy, Mario
+Guests: Murphy Randle, Mario Rogic
 
 ## Corrections
 - The Daily Drip coupon code is `elmtown-2017`. Again, I'm so sorry for getting that wrong multiple times.
@@ -26,3 +26,9 @@ Guests: Murphy, Mario
 Mario’s Talk at Elm Europe: https://youtu.be/EyBtz8xZz7U
 
 <iframe src="https://cast.rocks/player/6039/Elm-Town-18---Spotlight-on-Mario-Rogic.mp3?episodeTitle=Elm%20Town%2018%20-%20Spotlight%20on%20Mario%20Rogic&podcastTitle=Elm%20Town&episodeDate=August%2028th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+# Sponsors
+- [Day One](https://dayoneapp.com)
+- [Daily Drip](https://www.dailydrip.com/)
+- [Futurice](http://futurice.com/)
+- [Ellie App](https://ellie-app.com/new)

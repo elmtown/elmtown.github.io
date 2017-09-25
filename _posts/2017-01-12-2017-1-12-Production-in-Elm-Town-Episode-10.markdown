@@ -1,24 +1,14 @@
 ---
-title: Production in Elm Town - Episode 10
+title: Elm Town 10 - About being "in production"
 date: 2017-01-12 00:00:00 Z
 layout: post
 ---
 
 Kevin Yank and Richard Feldman join us for a discussion about shipping!
 
-## Sponsors
-
-- Humblespark - [https://humblespark.com](https://humblespark.com)
-- Asteris - [https://aster.is](https://aster.is)
-- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
-- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
-
-## Thanks
-- Big huge super duper thanks to [Fergus](https://twitter.com/airuyi) for editing this, and all episodes!
-
-## Show Notes
+# Show Notes
 Recording date: 2017-01-12
-Guests: splodingsocks, Richard, Kevin-Yank
+Guests: Murphy Randle, Richard Feldman, Kevin Yank
 
 - (0:04:31) [Culture Amp](https://www.cultureamp.com/)
 - (0:17:26) [elm-format](https://github.com/avh4/elm-format)
@@ -35,5 +25,15 @@ Guests: splodingsocks, Richard, Kevin-Yank
 - (1:07:15) Murphy: [Georgia Tech OMSCS](https://www.omscs.gatech.edu/)
 - (1:10:18) Murphy: [Elmjutsu by Ervin Ola](https://atom.io/packages/elmjutsu)
 
-## Listen
 <iframe src="https://cast.rocks/player/6039/Production-in-Elm-Town--Episode-10.mp3?episodeTitle=Production%20in%20Elm%20Town%20-%20Episode%2010&podcastTitle=Elm%20Town&episodeDate=February%2017th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+# Sponsors
+
+- Humblespark - [https://humblespark.com](https://humblespark.com)
+- Asteris - [https://aster.is](https://aster.is)
+- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
+- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
+
+# Thanks
+- Big huge super duper thanks to [Fergus](https://twitter.com/airuyi) for editing this, and all episodes!
+

@@ -1,12 +1,12 @@
 ---
-title: History in Elm Town, Records! - Episode 12
+title: Elm Town 12 - History of Records
 date: 2017-04-26 18:10:00 Z
 ---
 
-Show Notes – Episode 12 - History of Records
+# Show Notes
 
 Recording date: 2017-04-13
-Guests: Murphy, Evan
+Guests: Murphy Randle, Evan Czaplicki
 
 - (0:00:15) [Soft Skills Engineering Podcast](http://softskills.audio/)
 - (0:00:50) [Oslo Elm Day & Elm Conf Europe](https://osloelmday.no/)
@@ -20,3 +20,11 @@ Guests: Murphy, Evan
 - (1:11:50) [json survival kit - use coupon code `elmtown`](https://www.brianthicks.com/post/2017/01/06/announcing-the-json-survival-kit/)
 
 <iframe src="https://cast.rocks/player/6039/Episode-12--History-of-Records.mp3?episodeTitle=History%20in%20Elm%20Town%2C%20Records!%20-%20Episode%2012&podcastTitle=Elm%20Town&episodeDate=April%2026th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+
+# Sponsors
+
+- [Humble Spark](https://www.humblespark.com/)
+- [Day One](https://dayoneapp.com)
+- [Daily Drip](https://www.dailydrip.com/)
+- [Futurice](http://futurice.com/)

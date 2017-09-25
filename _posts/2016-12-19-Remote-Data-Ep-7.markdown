@@ -1,20 +1,12 @@
 ---
-title: Remote Data in Elm Town - Episode 7
+title: Elm Town 7 - Remote Data with Kris A. Jenkins
 date: 2016-12-19 00:00:00 Z
 layout: post
 ---
 
 Special guest Kris A. Jenkins tells us about Hakell, and remotedata!
 
-## Sponsors
-
-- Humblespark - [https://humblespark.com](https://humblespark.com)
-- Asteris - [https://aster.is](https://aster.is)
-- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
-- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
-
-## Show Notes
-
+# Show Notes
 Recording date: 2016-12-09
 Guests: Murphy Randle, Luke Westby, Kris Jenkins
 
@@ -34,8 +26,10 @@ Guests: Murphy Randle, Luke Westby, Kris Jenkins
 - (0:58:27) Murphy: [When Marnie Was There](https://www.amazon.com/When-Marnie-Was-There-Blu-ray/dp/B00ZAZEEDY/ref=sr_1_1?s=movies-tv&ie=UTF8&qid=1482169070&sr=1-1&keywords=when+marnie+was+there)
 - (0:59:03) Murphy: [Flirty Aprons](http://flirtyaprons.com/)
 
-
-
-
-## Listen
 <iframe src="https://cast.rocks/player/6039/Remote-Data-in-Elm-Town---Episode-7.mp3?episodeTitle=Remote%20Data%20in%20Elm%20Town%20-%20Episode%207&podcastTitle=Elm%20Town&episodeDate=December%2019th%2C%202016&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
+
+# Sponsors
+- Humblespark - [https://humblespark.com](https://humblespark.com)
+- Asteris - [https://aster.is](https://aster.is)
+- Day One - [http://dayoneapp.com/](http://dayoneapp.com/)
+- Daily Drip - [https://www.dailydrip.com/](https://www.dailydrip.com/)
