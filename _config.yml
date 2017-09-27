@@ -9,7 +9,9 @@ collections:
     title: Uploads
     output: true
 excerpt_separator: ''
-pygments: true
+plugins:
+  - jekyll-paginate
+highlighter: pygments
 markdown: kramdown
 url: http://elmtown.github.io
 email: 
