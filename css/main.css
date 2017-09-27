@@ -24,6 +24,9 @@ h6 {
   font-weight: 700;
   color: #404551;
 }
+ul {
+  padding: 0;
+}
 hr {
   max-width: 50px;
   border: 2px solid #60b5cc;
@@ -97,17 +100,16 @@ header.main img {
   letter-spacing: 0.06rem;
   font-style: italic;
 }
-.posts-container .post:after {
+.posts-container .post::after {
   transition: color 0.7s;
   position: absolute;
   right: 3%;
   top: 40%;
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.3rem;
+  font-size: 2rem;
   text-rendering: auto;
   margin-right: 10px;
-  content: "\F04B";
+  content: "\23F5";
   color: #5fb4de;
 }
 .posts-container .post:hover {
@@ -115,7 +117,7 @@ header.main img {
   cursor: pointer;
   box-shadow: 0 20px 50px rgba(95, 180, 203, 0.5);
 }
-.posts-container .post:hover:after {
+.posts-container .post:hover::after {
   color: #efb952;
 }
 .posts-container .post.latest {
@@ -153,10 +155,21 @@ header.main img {
   z-index: 3;
 }
 .info {
-  overflow: scroll;
+  overflow: auto;
 }
+.info h1,
 .info h2 {
+  font-size: 1.5em;
   margin-top: 2rem;
+}
+.info h1::after,
+.info h2::after {
+  display: block;
+  content: "";
+  height: 0;
+  width: 50px;
+  border: 2px solid #60b5cc;
+  margin: 20px 0;
 }
 .info p {
   margin-bottom: 2rem;
