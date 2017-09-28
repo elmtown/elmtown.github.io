@@ -2,14 +2,21 @@
 title: Elm Town 9 - Getting Started
 date: 2017-01-03 00:00:00 Z
 layout: post
+excerpt: Tessa, Terezka, and Richard join us for a discussion about getting started with Elm!
 ---
 
-Tessa, Terezka, and Richard join us for a discussion about getting started with Elm!
+# Listen
+<iframe src="https://cast.rocks/player/6039/Arriving-in-Elm-Town---Episode-9.mp3?episodeTitle=Arriving%20in%20Elm%20Town%20-%20Episode%209&podcastTitle=Elm%20Town&episodeDate=January%2024th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
 
-# Show Notes
 Recording date: 2017-01-03
-Guests: Murphy Randle, Tessa Kelly, Terezka Sokol, Richard Feldman
 
+# Guests
+- Murphy Randle
+- Tessa Kelly
+- Terezka Sokol
+- Richard Feldman
+
+# Links
 - (0:05:18) [Elm in Action](https://www.manning.com/books/elm-in-action)
 - (0:05:23) [elm-css](https://github.com/rtfeldman/elm-css)
 - (0:05:35) [elm-test](http://package.elm-lang.org/packages/elm-community/elm-test/latest)
@@ -35,7 +42,6 @@ Guests: Murphy Randle, Tessa Kelly, Terezka Sokol, Richard Feldman
 - (0:50:43) Richard: [Starting Strength](https://www.amazon.com/Starting-Strength-Basic-Barbell-Training/dp/0982522738/ref=sr_1_1?ie=UTF8&qid=1483484327&sr=8-1&keywords=starting+strength)
 - (0:51:20) Terezka: [Second hand time](http://www.goodreads.com/book/show/26854453-second-hand-time?from_search=true)
 
-<iframe src="https://cast.rocks/player/6039/Arriving-in-Elm-Town---Episode-9.mp3?episodeTitle=Arriving%20in%20Elm%20Town%20-%20Episode%209&podcastTitle=Elm%20Town&episodeDate=January%2024th%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
 
 # Sponsors
 - Humblespark - [https://humblespark.com](https://humblespark.com)
