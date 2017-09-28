@@ -1,7 +1,7 @@
 ---
 title: Elm Town 17 - elm-style-elements with Matthew Griffith
 date: 2017-07-31 21:42:00 Z
-excerpt: "Topic: elm-style-elements package."
+excerpt: 'Topic: elm-style-elements package.'
 ---
 
 # Listen

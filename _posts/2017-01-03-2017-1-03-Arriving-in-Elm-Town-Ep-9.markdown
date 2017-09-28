@@ -2,7 +2,8 @@
 title: Elm Town 9 - Getting Started
 date: 2017-01-03 00:00:00 Z
 layout: post
-excerpt: Tessa, Terezka, and Richard join us for a discussion about getting started with Elm!
+excerpt: Tessa, Terezka, and Richard join us for a discussion about getting started
+  with Elm!
 ---
 
 # Listen

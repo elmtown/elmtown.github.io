@@ -2,7 +2,7 @@
 title: Elm Town 3 - JSON decoders
 date: 2016-10-21 00:00:00 Z
 layout: post
-excerpt: "JSON decoders: What they are, how to build them, how to use them."
+excerpt: 'JSON decoders: What they are, how to build them, how to use them.'
 ---
 
 # Listen

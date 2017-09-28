@@ -10,7 +10,7 @@ collections:
     output: true
 excerpt_separator: ''
 plugins:
-  - jekyll-paginate
+- jekyll-paginate
 highlighter: pygments
 markdown: kramdown
 url: http://elmtown.github.io

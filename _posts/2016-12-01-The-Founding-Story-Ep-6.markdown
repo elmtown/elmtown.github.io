@@ -2,7 +2,8 @@
 title: Elm Town 6 - The Founding Story
 date: 2016-12-01 00:00:00 Z
 layout: post
-excerpt: Talking with Evan about how thing started, where Elm came from, and where it's going!
+excerpt: Talking with Evan about how thing started, where Elm came from, and where
+  it's going!
 ---
 
 # Listen
