@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+}
+body {
+  background: #f7f7f7;
+  background: linear-gradient(180deg, #fefefe 0, #fff);
+  font-family: sans-serif;
+  letter-spacing: 0.04rem;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: Open Sans, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #404551;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  max-width: 50px;
+  border: 2px solid #60b5cc;
+  margin: 20px 0;
+}
+a {
+  color: #5fb4cb;
+}
+li,
+p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #666;
+}
+li {
+  list-style: disc;
+  margin-left: 20px;
+}
+.heart {
+  visibility: hidden;
+  display: inline-block;
+  width: 20px;
+  position: relative;
+  color: red;
+}
+.heart:after {
+  visibility: visible;
+  content: "\2665";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+header.main {
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  padding: 2rem 0;
+  font-family: Open Sans, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #404551;
+  display: flex;
+  align-items: center;
+}
+header.main img {
+  width: 70px;
+  float: left;
+  margin-right: 10px;
+}
+.posts-container .post {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  position: relative;
+  transition: box-shadow 0.7s;
+  border-bottom: 1px solid rgba(95, 180, 203, 0.1);
+  min-width: 280px;
+}
+.posts-container .post h3 {
+  width: 90%;
+}
+.posts-container .post a {
+  text-decoration: none;
+}
+.posts-container .post p,
+.posts-container .post span {
+  color: #7d97ad;
+  font-size: 0.8rem;
+}
+.posts-container .post p {
+  font-family: serif;
+  letter-spacing: 0.06rem;
+  font-style: italic;
+}
+.posts-container .post::after {
+  transition: color 0.7s;
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  display: inline-block;
+  font-size: 2rem;
+  text-rendering: auto;
+  margin-right: 10px;
+  content: "\23F5";
+  color: #5fb4de;
+}
+.posts-container .post:hover {
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 20px 50px rgba(95, 180, 203, 0.5);
+}
+.posts-container .post:hover::after {
+  color: #efb952;
+}
+.posts-container .post.latest {
+  background: transparent;
+  min-height: 250px;
+  border-bottom: 0;
+}
+.posts-container .post.latest h3 {
+  font-size: 2em;
+}
+.posts-container .post.latest p,
+.posts-container .post.latest span {
+  font-size: 0.9rem;
+}
+.posts-container .post.latest:after {
+  content: "";
+}
+.posts-container .post.latest:hover {
+  box-shadow: none;
+}
+.posts-container .post.latest:hover h3 {
+  color: #575d6d;
+}
+.posts-container .post.latest:hover p,
+.posts-container .post.latest:hover span {
+  color: #7d97ad;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.info {
+  overflow: auto;
+}
+.info h1,
+.info h2 {
+  font-size: 1.5em;
+  margin-top: 2rem;
+}
+.info h1::after,
+.info h2::after {
+  display: block;
+  content: "";
+  height: 0;
+  width: 50px;
+  border: 2px solid #60b5cc;
+  margin: 20px 0;
+}
+.info p {
+  margin-bottom: 1rem;
+}
+.container {
+  padding: 2rem;
+}
+.page {
+  background: #fff;
+  height: 95%;
+  margin: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.page header {
+  background: #5fb4cb;
+  padding: 2rem;
+  flex: 1;
+}
+.page header h3 {
+  font-size: 2em;
+  color: #fff;
+}
+.page header p,
+.page header span {
+  font-size: 0.9rem;
+  color: #d2eaf1;
+}
+.page .info {
+  flex: 2;
+}
+.page .info li {
+  margin-top: 1rem;
+}
+.page .close {
+  position: absolute;
+  top: 3%;
+  right: 7%;
+  color: #d2eaf1;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.sponsor-container {
+  width: 70%;
+  text-align: center;
+  margin: 60px auto 0;
+  font-size: 1.3rem;
+}
+.sponsor-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: no-wrap;
+}
+.sponsor-container li {
+  flex: 1 auto;
+  list-style: none;
+}
+.sponsor-container img {
+  width: 100%;
+}
+#logo-day-one {
+  padding: 2.0%;
+}
+#logo-dailydrip {
+  padding: 2.0%;
+}
+#logo-ellie {
+  padding: 0.4%;  
+}
+#logo-chilicorn {
+  padding: 0.6%;  
+}
+
+@media (min-width: 725px) {
+  header.main {
+    position: fixed;
+    margin-bottom: 2rem;
+  }
+  .posts-container {
+    float: right;
+    margin: 7% 4% 5% 0;
+    width: 35%;
+    z-index: 2;
+  }
+  .posts-container .post.latest {
+    top: 30%;
+    padding: 0;
+    left: 4%;
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+  }
+  .posts-container .post.latest h3 {
+    font-size: 4rem;
+  }
+  .sponsor-container {
+    position: fixed;
+    width: 45%;
+    bottom: 1rem;
+    left: 5%;
+  }
+  .sponsor-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .sponsor-container li {
+    width: 20%;
+  }
+  .page {
+    flex-flow: row;
+    align-items: stretch;
+  }
+  .page header {
+    display: flex;
+    align-items: center;
+  }
+  .page .info > div {
+    width: 90%;
+    margin: auto;
+  }
+  .page .close {
+    right: 4%;
+    color: #ccc;
+  }
+}
+@media (min-width: 1200px) {
+  .page .info > div {
+    width: 50%;
+  }
+  .page .close {
+    right: 2%;
+    color: #ccc;
+  }
+}

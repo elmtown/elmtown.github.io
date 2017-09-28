@@ -2,17 +2,22 @@
 title: Elm Town 11 - History of Signals
 date: 2017-04-03 00:00:00 Z
 layout: post
+excerpt: Learn about the evolution and deprecation of signals from Evan!
 ---
 
-Learn about the evolution and deprecation of signals from Evan!
+# Listen
 
-# Show Notes
-Show Notes – Elm Town 11 - The History of Signals
+<iframe src="https://cast.rocks/player/6039/Elm-Town-11---The-History-of-Signals.mp3?episodeTitle=History%20in%20Elm%20Town%2C%20Signals!%20-%20Episode%2011&podcastTitle=Elm%20Town&episodeDate=April%203rd%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
 
 Recording date: 2017-03-14
-Guests: Murphy Randle, Evan Czaplicki
 
 
+# Guests
+- Murphy Randle
+- Evan Czaplicki
+
+
+# Links
 - (0:10:37) [Functional Reactive Animation](http://haskell.cs.yale.edu/?post_type=publication&p=215)
 - (0:37:06) [Vessel](http://slawrence.github.io/vessel/)
 - (1:08:26) [Koka](http://rise4fun.com/Koka/tutorial/guide)
@@ -20,7 +25,6 @@ Guests: Murphy Randle, Evan Czaplicki
 - (1:13:16) [Remote Data](http://package.elm-lang.org/packages/krisajenkins/remotedata/latest)
 - (1:13:42) [How Elm Slays a UI Anti-Pattern](http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html)
 
-<iframe src="https://cast.rocks/player/6039/Elm-Town-11---The-History-of-Signals.mp3?episodeTitle=History%20in%20Elm%20Town%2C%20Signals!%20-%20Episode%2011&podcastTitle=Elm%20Town&episodeDate=April%203rd%2C%202017&imageURL=https%3A%2F%2Fcast.rocks%2Fhosting%2F6039%2Ffeeds%2F8YSE5.jpg&itunesLink=https%3A%2F%2Fitunes.apple.com%2Fus%2Fpodcast%2Felm-town%2Fid1158047037%3Fmt%3D2" style="border: none; min-height: 265px; max-height: 320px; max-width: 558px; min-width: 270px; width: 100%; height: 100%;" scrollbars="no"></iframe>
 
 
 # Sponsors

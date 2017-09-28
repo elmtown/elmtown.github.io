@@ -1,37 +1,25 @@
-<style type="text/css">
-  .footer p {
-    padding: 0.5rem;
-    margin-bottom: 0;
-    text-align: center;
-  }
-
-  .footer .url {
-    overflow-x: scroll;
-  }
-</style>
-
-<footer class="footer">
-  <p>Podcast feed:</p>
-  <p class="url"><b>http://cast.rocks/hosting/6039/feeds/8YSE5.xml</b></p>
-  <div class="p2 wrap">
-    <div class="measure mt1 center">
-      <small>
-        Theme crafted with love &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>). Site powered by <a href="https://tinypress.co/">Tinypress</a>.<br>
-        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll.git">Github</a>.
-      </small>
-    </div>
-  </div>
-</footer>
-
-{% if site.google_analytics %}
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', '{{ site.google_analytics }}', 'auto');
-ga('send', 'pageview');
-
-</script>
-{% endif %}
+<section class="sponsor-container">
+  <h4>We <i class="heart">love</i> our sponsors, and we hope you will, too.</h4>
+  <ul>
+    <li id="logo-day-one">
+      <a href="https://dayoneapp.com/">
+        <img src="/images/logo-day-one.svg" alt="Day One Logo" />
+      </a>
+    </li>
+    <li id="logo-dailydrip">
+      <a href="https://www.dailydrip.com/">
+        <img src="/images/dailydrip-logo.png" alt="Daily Drip Logo" />
+      </a>
+    </li>
+    <li id="logo-chilicorn">
+      <a href="https://spiceprogram.org/">
+        <img src="/images/chilicorn-notext.png" alt="Futurice Spice Program Logo" />
+      </a>
+    </li>
+    <li id="logo-ellie">
+      <a href="https://ellie-app.com/new">
+        <img src="/images/ellie-logo.png" alt="Ellie Logo" />
+      </a>
+    </li>
+  </ul>
+</section>
