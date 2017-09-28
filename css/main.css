@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body,
 html {
   height: 100vh;
@@ -223,16 +226,28 @@ header.main img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
 }
 .sponsor-container li {
-  width: 40%;
-  margin: 1rem;
+  flex: 1 auto;
   list-style: none;
 }
 .sponsor-container img {
   width: 100%;
 }
+#logo-day-one {
+  padding: 2.0%;
+}
+#logo-dailydrip {
+  padding: 2.0%;
+}
+#logo-ellie {
+  padding: 0.4%;  
+}
+#logo-chilicorn {
+  padding: 0.6%;  
+}
+
 @media (min-width: 725px) {
   header.main {
     position: fixed;
