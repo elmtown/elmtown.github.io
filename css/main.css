@@ -110,10 +110,11 @@ header.main img {
   right: 3%;
   top: 40%;
   display: inline-block;
-  font-size: 2rem;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3rem;
   text-rendering: auto;
   margin-right: 10px;
-  content: "\23F5";
+  content: "\F04B";
   color: #5fb4de;
 }
 .posts-container .post:hover {
