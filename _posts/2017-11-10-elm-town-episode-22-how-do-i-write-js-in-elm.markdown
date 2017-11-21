@@ -1,7 +1,8 @@
 ---
 title: Elm Town 22 - How Do I Write JS in Elm?
 date: 2017-11-10 10:15:00 Z
-excerpt: 'A conversation with Evan about how Elm is designed to interact with Javascript, and other topics.'
+excerpt: A conversation with Evan about how Elm is designed to interact with Javascript,
+  and other topics.
 ---
 
 # Listen
